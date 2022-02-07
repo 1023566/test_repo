@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("C:/Users/anand.vikash/terraform_lab/GCPlab/my-terraform-project-339309-da9893a0e568.json")
+  credentials = file("./my-terraform-project-339309-da9893a0e568.json")
   project     = "my-terraform-project-339309"
   region      = "us-central1"
   zone        = "us-central1-c"
